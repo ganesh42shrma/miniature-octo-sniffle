@@ -1,0 +1,10 @@
+# Secrets and real statements — never commit
+.env
+samples/private/
+samples/redacted/
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
